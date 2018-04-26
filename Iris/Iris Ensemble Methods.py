@@ -374,7 +374,6 @@ Best Parameters :  {'RandomForest__criterion': 'gini', 'RandomForest__max_depth'
 GBM BayesSearchCV took 1265.90 seconds for 50 candidate parameter settings.
 Best Parameters :  {'GBM__learning_rate': 0.0013925775747943296, 'GBM__max_depth': 494, 'GBM__min_samples_leaf': 2, 'GBM__min_samples_split': 2, 'GBM__n_estimators': 10000}
 
-
-
-
+XGBoost BayesSearchCV took 4140.71 seconds for 50 candidate parameter settings.
+Best Parameters :  {'XGB__booster': 'dart', 'XGB__gamma': 3, 'XGB__learning_rate': 0.00017895213919782454, 'XGB__max_depth': 62, 'XGB__min_child_weight': 0.03634718192145022, 'XGB__n_estimators': 5932, 'XGB__objective': 'multi:softmax', 'XGB__subsample': 0.41531715637083505}
 '''
