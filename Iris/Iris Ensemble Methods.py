@@ -30,6 +30,9 @@ from sklearn.model_selection import KFold, StratifiedKFold
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn.model_selection import train_test_split
 
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+warnings.filterwarnings("ignore", category=UserWarning)
 
 # ###################################################################
 # data loding
